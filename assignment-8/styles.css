@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'EBGaramond';
+    src: url('EBGaramond-Regular.ttf') format('truetype');
+    font-style: normal;
+     }
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: auto;
+    font-family:'EBGaramond';
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: auto;
+    font-family:'EBGaramond';
+}
+
+p{
+    font-size: auto;
+    font-family:'EBGaramond';
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    max-width: 300px;
+}
