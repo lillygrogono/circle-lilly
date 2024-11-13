@@ -1,29 +1,34 @@
-@font-face {
-    font-family: 'EBGaramond';
-    src: url('EBGaramond-Regular.ttf') format('truetype');
-    font-style: normal;
-     }
-
-body{
-    justify-content: center;
-    text-align: center;
+html {
+    box-sizing: border-box;
 }
-h1{
-    font-size: auto;
-    font-family:'EBGaramond';
+*,*:before, *:after {
+    box-sizing:inherit
 }
 
-h2{
-    font-size: auto;
-    font-family:'EBGaramond';
+body {
+    border: 2px solid pink; 
+    background-color: seashell;
 }
 
-p{
-    font-size: auto;
-    font-family:'EBGaramond';
+div {
+    border: 2px solid pink;
+    background-color:#585623
+
 }
 
+p {
+    border: 2px solid pink; 
+    color: coral;
+    margin-bottom: 50px;
+    padding: 10px 30px;
 
-img{
-    max-width: 300px;
+}
+
+sup {border: 2px solid pink; 
+}
+
+button {
+    border: 2px solid pink;
+    font-size: 32px; 
+    
 }
