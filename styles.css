@@ -5,24 +5,76 @@ html {
     box-sizing:inherit
 }
 
-body {
-    border: 2px solid pink; 
-    background-color: seashell;
+.title {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
 }
 
-div {
-    border: 2px solid pink;
-    background-color:#585623
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
 
+.pic{
+    padding: 20px;
+    background-color:#273f59;
+}
+
+body {
+    padding: 10px;
+    border: 10px dotted rgb(255, 194, 221); 
+    background-color: rgb(124, 177, 210);
+    align-items: center;
+    text-align: center;
+}
+
+.clock {
+    padding: 20px;
+    background-color:#273f59;
+}
+
+.hi{
+    color:  rgb(255, 194, 221); 
+    padding: 0px 20px;
+    text-align: justify
+}
+
+.hello{
+    color:  rgb(255, 194, 221); 
+    padding: 0px 20px;
+    text-align: justify
+}
+
+.badah{
+    padding: 10px;
+    background-color:#273f59;
+}
+
+h1{
+    color:#273f59;; 
+}
+
+.fun {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(124, 177, 210);
+}
+
+div{
+    padding: 20px;
+    background-color:#273f59;
 }
 
 p {
-    border: 2px solid pink; 
-    color: coral;
-    margin-bottom: 50px;
-    padding: 10px 30px;
-
+    color:  rgb(255, 194, 221); 
+    padding: 0px 20px;
+    text-align: justify
 }
+
+a {
+    color: rgb(124, 177, 210);
+}
+
 
 sup {border: 2px solid pink; 
 }
@@ -30,5 +82,4 @@ sup {border: 2px solid pink;
 button {
     border: 2px solid pink;
     font-size: 32px; 
-    
 }
