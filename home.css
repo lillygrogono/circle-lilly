@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'castledown'; 
+    src: url('castledown.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'ebgaramond'; 
+    src: url('ebgaramond.ttf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'outfit'; 
+    src: url('outfit.ttf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'outfit-light'; 
+    src: url('outfit-light.ttf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
 html {
     box-sizing: border-box;
 }
@@ -6,34 +34,66 @@ html {
 }
 
 body {
-    color: pink;
-    background-color:gray;
-    text-align: center;
+    color: #EAE9E6;
+    background-color: #2D213C;
+    margin: 0; /* Remove default margins */
+    height: 100vh; /* Make the body fill the viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
 }
 
 h1{
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 18px;
+    font-family: outfit-light;
+    letter-spacing: 2px;
+    padding: 4px;
+    margin:0px;
+    margin-bottom: 16px;
+    margin-right:170px;
 }
 
-.grid{
-    background-color:white;
-    display: flex;
+.container{
+    align-items: center;
 }
 
 .cloud-link{
-    background: red;
     border-radius: 50%;
-    opacity:.8;
-    position:fixed;
-    top: 10px;
-    left:10px;
-    
 }
 
 a{
-    color:aquamarine;
-    displaY: block;
-    font-size:32px;
-    margin: 20px;
+    font-family: outfit-light;
+    color:#EAE9E6;
+    text-align: left;
+    display: block;
+    font-size:18px;
+    letter-spacing: 2px;
+    padding: 4px;
+    text-decoration: none;
+    margin-left:170px;
 }
+
+a.new-color {
+    color: #2D213C; /* New link color when the button is clicked */
+}
+
+a:hover {
+    color: red;
+}
+
+#button{
+    margin-left:170px;
+    font-family: outfit-light;
+    font-size:18px;
+    padding: 4px;
+    letter-spacing: 2px;
+    color:#EAE9E6;
+    background:none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+#button:hover {
+    color:red;
+   }
