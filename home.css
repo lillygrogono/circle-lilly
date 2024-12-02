@@ -22,7 +22,7 @@
 @font-face {
     font-family: 'outfit-light'; 
     src: url('outfit-light.ttf') format('opentype'); 
-    font-weight: normal; 
+    font-weight: lighter; 
     font-style: normal; 
 }
 
