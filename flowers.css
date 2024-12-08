@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/ukj3zgt.css");
+
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing:inherit
+}
+
+.rose{
+    background-color: #51775D;
+    margin:0px;
+    padding:0px;
+    justify-items: center;
+}
+
+h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Roboto", sans-serif;
+    text-align: center;
+    letter-spacing: -5px;
+    font-size: 46px;
+    margin: 0px;
+    margin-right:28px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+H2{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 26px;
+    color:#FFFFEE;
+}
+
+.content{
+    max-width: 800px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 equal columns */
+    column-gap: 5px;       
+    justify-content: center; 
+    align-items: center; 
+    margin:auto;
+    padding:0px  
+}
+
+p{
+    font-family: "larken", sans-serif;
+    font-size: 18px;
+    color:#FFFFEE;
+    text-align: right;
+}
+
+img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+a{
+    border: none;
+    text-decoration: none;
+}
