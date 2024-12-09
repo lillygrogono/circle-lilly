@@ -26,3 +26,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Get elements
+const showOverlayButton = document.getElementById('showOverlay');
+const overlay = document.getElementById('overlay');
+const closeOverlayButton = document.getElementById('closeOverlay');
+
+// Show the overlay when the button is clicked
+showOverlayButton.addEventListener('click', () => {
+  overlay.style.display = 'flex'; // Show the overlay
+});
+
+// Close the overlay when the close button is clicked
+closeOverlayButton.addEventListener('click', () => {
+  overlay.style.display = 'none'; // Hide the overlay
+});
